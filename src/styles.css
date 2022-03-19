@@ -1,0 +1,44 @@
+:root {
+    --title-font: 'Press Start 2P', cursive;
+    --heading-font: 'VT323', monospace;
+    --background-color: #141010;
+    --border-color: #9896f1;
+    --primary-color:#6af79a;
+}
+
+.gameContainer {
+    border: 10px double var(--border-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: var(--title-font);
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+a {
+font-family: var(--heading-font);
+color: var(--border-color);
+font-size: 25px;
+width: 100px;
+height: auto;
+}
+
+a:hover {
+    color:white;
+    opacity: 80%;
+}
+
+.resultContainer {
+    border-style: solid;
+    padding: 5px 0 10px 0;
+    border-color: var(--border-color);
+}
