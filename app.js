@@ -1,5 +1,5 @@
-const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
+const computerChoiceDisplay = document.getElementById('computer-choice')
 const resultsDisplay = document.getElementById ('results')
 const possibleChoices = document.querySelectorAll('a')
 let userChoice

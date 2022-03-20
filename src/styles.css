@@ -22,12 +22,13 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-size: 35px;
 }
 
 a {
 font-family: var(--heading-font);
 color: var(--border-color);
-font-size: 25px;
+font-size: 38px;
 width: 100px;
 height: auto;
 }
